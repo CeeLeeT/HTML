@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">GeekStation Hacker Logo</title><desc id="desc">Neon green cyber shield with GS monogram, terminal chevrons and circuit traces.</desc>
+<defs>
+  <radialGradient id="g" cx="50%" cy="45%" r="65%"><stop offset="0" stop-color="#5bff8f" stop-opacity=".35"/><stop offset=".55" stop-color="#0fbf5b" stop-opacity=".12"/><stop offset="1" stop-color="#020403"/></radialGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="512" height="512" rx="96" fill="#020403"/>
+<path d="M256 30 438 108v126c0 116-75 211-182 248C149 445 74 350 74 234V108L256 30Z" fill="url(#g)" stroke="#5bff8f" stroke-width="16" filter="url(#glow)"/>
+<path d="M145 174 94 226l51 52M367 174l51 52-51 52" fill="none" stroke="#c7ff4d" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M301 140 211 372" stroke="#58f2ff" stroke-width="18" stroke-linecap="round" opacity=".9"/>
+<text x="256" y="306" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="126" font-weight="900" fill="#d7ffe2" stroke="#020403" stroke-width="4">GS</text>
+<path d="M132 112h55M325 112h55M132 400h74M306 400h74M112 154v48M400 154v48M112 310v48M400 310v48" stroke="#5bff8f" stroke-width="10" stroke-linecap="round" opacity=".75"/>
+<circle cx="112" cy="112" r="8" fill="#c7ff4d"/><circle cx="400" cy="112" r="8" fill="#58f2ff"/><circle cx="112" cy="400" r="8" fill="#58f2ff"/><circle cx="400" cy="400" r="8" fill="#c7ff4d"/>
+</svg>
